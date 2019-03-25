@@ -1,0 +1,32 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "cloudant": {
+    "host": "b02372d0-c342-4d2e-9d02-f4839644b5da-bluemix.cloudant.com",
+    "port": 443,
+    "url": "https://b02372d0-c342-4d2e-9d02-f4839644b5da-bluemix:8f23678ab32226ee12884c206994d944568a087d8fa80563cc2b5f3bc6d58808@b02372d0-c342-4d2e-9d02-f4839644b5da-bluemix.cloudant.com",
+    "database": "mydb",
+    "password": "8f23678ab32226ee12884c206994d944568a087d8fa80563cc2b5f3bc6d58808",
+    "name": "cloudant",
+    "connector": "cloudant",
+    "db": "mydb",
+    "protocol": "https",
+    "auth": {
+      "admin": {
+        "username": "b02372d0-c342-4d2e-9d02-f4839644b5da-bluemix",
+        "password": "8f23678ab32226ee12884c206994d944568a087d8fa80563cc2b5f3bc6d58808"
+      },
+      "reader": {
+        "username": "your reader user name",
+        "password": "your reader password"
+      },
+      "writer": {
+        "username": "your writer username",
+        "password": "your writer password"
+      }
+    },
+    "user": "b02372d0-c342-4d2e-9d02-f4839644b5da-bluemix"
+  }
+}

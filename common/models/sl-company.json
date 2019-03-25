@@ -1,0 +1,28 @@
+{
+  "name": "sl_company",
+  "plural": "companyAPI",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "companyName": {
+      "type": "string",
+      "required": true,
+      "default": "defaultCompany"
+    },
+    "companyAddress": {
+      "type": "string"
+    },
+    "CompanyCode": {
+      "type": "number",
+      "required": true,
+      "default": 123456
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
