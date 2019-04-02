@@ -1,6 +1,6 @@
 FROM node:6-alpine
 
-ADD views /app/views
+ADD views /views
 ADD package.json /app
 ADD app.js /app
 
