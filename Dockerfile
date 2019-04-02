@@ -2,7 +2,7 @@ FROM node:6-alpine
 
 ADD views /app/views
 ADD package.json /app
-ADD server.js /app
+ADD app.js /app
 
 RUN cd /app; npm install
 
