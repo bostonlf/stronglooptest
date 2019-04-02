@@ -1,14 +1,10 @@
 FROM node:6-alpine
 
-ADD views /views
-ADD package.json /app
-ADD app.js /app
-
-RUN cd /app; npm install
-
-ENV NODE_ENV production
-ENV PORT 8080
-EXPOSE 8080
-
-WORKDIR "/app"
+# Create app directory
+RUN mkdir -p /mystrongloop
+WORKDIR /mystrongloop
+# Bundle app source
+COPY . /mystrongloop
+RUN npm install
+EXPOSE 4000
 CMD [ "npm", "start" ]
