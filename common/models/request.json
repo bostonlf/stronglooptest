@@ -1,0 +1,30 @@
+{
+  "name": "request",
+  "plural": "request",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "RiskTitle": {
+      "type": "string",
+      "required": true,
+      "default": "RiskTitle"
+    },
+    "RiskDescrip": {
+      "type": "string"
+    },
+    "RiskTaskNumber": {
+      "type": "number",
+      "default": 0
+    },
+    "ta_AllLogComments": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

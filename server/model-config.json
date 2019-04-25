@@ -43,5 +43,9 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "request": {
+    "dataSource": "cloudant",
+    "public": true
   }
 }
